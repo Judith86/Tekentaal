@@ -1,0 +1,46 @@
+main{
+    position: relative;
+}
+
+.blocks-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.block{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: $v-padding-desktop 0px;
+    @include mobile-landscape{
+        padding: $v-padding-mobile 0px;
+    }
+    &--bg-primary{
+        background-color: #fff;
+        & + .block--bg-primary{
+            padding-top: 0px;
+        }
+    }
+    &--bg-secondary{
+        background-color: #ffffff;
+        & + .block--bg-secondary{
+            padding-top: 0px;
+        }
+    }
+}
+
+.inner-container{
+    width: 100%;
+    padding: 0px $h-padding-desktop;
+    &--medium{
+        max-width: 800px;
+    }
+    &--wide{
+        max-width:1200px;
+    }
+    @include mobile-landscape{
+        padding: 0px $h-padding-mobile;
+    }
+}

@@ -1,0 +1,74 @@
+/* hier komt de specifieke styling van een blok */
+
+.block.block-1{
+   transform: rotate(0deg);
+}
+
+@include tablet-landscape{
+    .block.block-1{
+       transform: rotate(0deg);
+    }
+}
+
+@include tablet-portrait{
+    .block.block-1{
+       transform: rotate(0deg);
+    }
+}
+
+@include mobile-landscape{
+    .block.block-1{
+       transform: rotate(0deg);
+    }
+}
+
+@include mobile-portrait{
+    .block.block-1{
+       transform: rotate(0deg);
+    }
+}
+
+.main_nav {
+  width: 2182px;
+  height: 60px;
+  display: -webkit-flex;
+  display: flex;
+
+}
+
+.main_nav li:first-child {
+  margin-right: 30px;
+}
+.main_nav a {
+  font-family: DINAlternate;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+}
+.main_nav .logo {
+  width: 214px;
+  height: 60px;
+  padding: 15px;
+  background-image: url("images/logo.png");
+}
+.main_nav .loginmenu {
+ width: 384px;
+ height: 30px;
+ font-family: DINAlternate;
+ font-size: 15px;
+ font-weight: bold;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 2;
+ letter-spacing: normal;
+ text-align: right;
+ color: #77296c;
+}

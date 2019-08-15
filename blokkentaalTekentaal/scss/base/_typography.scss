@@ -1,0 +1,96 @@
+body.front-end,
+body.wp-editor{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.block,
+.wp-editor{
+    p, li, h1, h2, h3, h4, h5{
+        margin: 0px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 1.6;
+        min-height: 24px;
+    }
+    h1, h2{
+        font-size: 34px;
+        line-height: 1.33;
+        position: relative;
+        @include mobile-landscape{
+            font-size: 21px;
+            line-height: 1.43;
+        }
+    }
+}
+.readmore{
+  margin-top: 13px;
+}
+
+h3{
+  font-family: DINAlternate;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #77296c;
+}
+.information_title{
+  font-family: DINAlternate;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    margin-top: -150px;
+    text-align: center;
+    color: #333333;
+}
+
+.gofast_title{
+    font-family: DINAlternate;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    position: absolute;
+    padding-left: 0px;
+    padding-top: 24px;
+}
+
+a{
+  font-family: DINAlternate;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: #ea5c2c;
+}
+
+
+a:hover{
+  font-family: DINAlternate;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-decoration: underline;
+  color: #ea5c2c;
+}
