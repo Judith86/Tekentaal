@@ -43,8 +43,44 @@ h3{
   letter-spacing: normal;
   color: #77296c;
 }
-.information_title{
+
+h4{
   font-family: DINAlternate;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #77296c;
+}
+
+h5{
+  font-family: DINAlternate;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.news_content_title{
+  width: 288px;
+  font-family: DINAlternate;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #333333;
+
+
+}
+.information_title{
+    font-family: DINAlternate;
     font-size: 18px;
     font-weight: bold;
     font-style: normal;
@@ -57,6 +93,23 @@ h3{
 }
 
 .gofast_title{
+  width: 1000px;
+  ont-family: DINAlternate;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+  margin-top: 20px;
+  margin-left: 0px;
+  background-color: #F5F5F5;
+}
+
+.news_title{
+    width: 1000px;
     font-family: DINAlternate;
     font-size: 18px;
     font-weight: bold;
@@ -66,9 +119,8 @@ h3{
     letter-spacing: normal;
     text-align: center;
     color: #333333;
-    position: absolute;
-    padding-left: 0px;
-    padding-top: 24px;
+    margin-top: 20px;
+    margin-left: 0px;
 }
 
 a{

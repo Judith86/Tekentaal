@@ -29,13 +29,17 @@
 }
 
 .container_header{
-  width: 1152px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
   height: 648px;
   margin-left: -150px;
 
 }
 
 .img_header{
+  display: flex;
+  flex-wrap: wrap;
   width: 1152px;
   height: 648px;
   margin-top: 0px;
@@ -44,12 +48,14 @@
 }
 
 .green{
+  display: flex;
+  flex-wrap: wrap;
   width: 576px;
   height: 324px;
   border-radius:0px 30px 0px 30px;
   background-color: #b6b028;
-  float: left;
   margin-top: -378px;
+  margin-left: 0px;
 }
 
 .green_content_title{
@@ -66,6 +72,8 @@
 }
 
 .green_content{
+  display: flex;
+  flex-wrap: wrap;
   margin-left: 20px;
   margin-top: 20px;
   font-family: Roboto;
@@ -75,17 +83,20 @@
 }
 
 .orange{
-  width: 384px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
   height: 144px;
   background-color: #ea5c2c;
   border-radius:30px 0px 30px 0px;
-  float: left;
   margin-left: 1080px;
   margin-top: -648px;
 }
 
 .orange_content_title{
-  width: 288px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
   height: 60px;
   font-family: Roboto;
   font-size: 24px;
@@ -99,9 +110,10 @@
 }
 
 .arrow_black{
+  position: relative;
   width: 24px;
   height: 12px;
-  margin-left: 290px;
-  margin-top: -40px;
+  margin-left: 240px;
+  margin-top: -50px;
   background-image: url("images/arrowblack.png");
 }

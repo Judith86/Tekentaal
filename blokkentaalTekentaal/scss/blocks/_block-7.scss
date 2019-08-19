@@ -1,0 +1,215 @@
+/* hier komt de specifieke styling van een blok */
+
+.block.block-1{
+   transform: rotate(0deg);
+}
+
+@include tablet-landscape{
+    .block.block-1{
+       transform: rotate(0deg);
+    }
+}
+
+@include tablet-portrait{
+    .block.block-1{
+       transform: rotate(0deg);
+    }
+}
+
+@include mobile-landscape{
+    .block.block-1{
+       transform: rotate(0deg);
+    }
+}
+
+@include mobile-portrait{
+    .block.block-1{
+       transform: rotate(0deg);
+    }
+}
+
+.footer_container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 466px;
+  background-color: #333333;
+  border-radius:0px 30px 0px 30px;
+}
+
+.footer_content_container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1920px;
+  order: 1;
+  margin: 10px;
+}
+
+.footer_block_01{
+  display: flex;
+  flex-wrap: wrap;
+  order: 1;
+  margin: 10px;
+}
+
+
+.footer_block_01_content{
+ font-family: Roboto;
+ font-size: 15px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 1.6;
+ letter-spacing: normal;
+ color: #ffffff;
+}
+
+.footer_block_01_content a{
+ font-family: Roboto;
+ font-size: 15px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 1.6;
+ letter-spacing: normal;
+ color: #ffffff;
+}
+
+.footer_block_01_content a:hover{
+ font-family: Roboto;
+ font-size: 15px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 1.6;
+ letter-spacing: normal;
+ color: #ea5c2c;
+}
+.footer_block_02{
+  display: flex;
+  flex-wrap: wrap;
+  order: 2;
+  margin: 10px;
+}
+
+.footer_block_02_content a{
+ font-family: Roboto;
+ font-size: 15px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 1.6;
+ letter-spacing: normal;
+ color: #ffffff;
+}
+
+.footer_block_02_content a:hover{
+ font-family: Roboto;
+ font-size: 15px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 1.6;
+ letter-spacing: normal;
+ color: #ea5c2c;
+}
+
+.footer_block_03{
+  display: flex;
+  flex-wrap: wrap;
+  width: 288px;
+  order: 3;
+  margin: 10px;
+}
+
+.footer_block_03_content{
+ font-family: Roboto;
+ font-size: 15px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 1.6;
+ letter-spacing: normal;
+ color: #ffffff;
+}
+
+.footer_block_03_content a{
+ font-family: Roboto;
+ font-size: 15px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 1.6;
+ letter-spacing: normal;
+ color: #ffffff;
+}
+
+.footer_block_03_content a:hover{
+ font-family: Roboto;
+ font-size: 15px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 1.6;
+ letter-spacing: normal;
+ color: #ea5c2c;
+}
+.footer_block_04{
+  display: flex;
+  flex-wrap: wrap;
+  width: 288px;
+  order: 4;
+  margin: 10px;
+}
+.footer_block_04_content{
+ font-family: Roboto;
+ font-size: 15px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 1.6;
+ letter-spacing: normal;
+ color: #ffffff;
+}
+.footer_block_04_content a{
+ font-family: Roboto;
+ font-size: 15px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 1.6;
+ letter-spacing: normal;
+ color: #ffffff;
+}
+
+.footer_block_04_content a:hover{
+ font-family: Roboto;
+ font-size: 15px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 1.6;
+ letter-spacing: normal;
+ color: #ea5c2c;
+}
+
+.footer_bottom{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 10px;
+  margin-top: -30px;
+  margin-left: 20px;
+}
+
+.footer_bottom_content{
+font-family: Roboto;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.85;
+  letter-spacing: normal;
+  color: #ffffff;
+}
