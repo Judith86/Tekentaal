@@ -34,14 +34,12 @@
     border-radius:0px 30px 0px 30px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     margin-left: -250px;
     background-color: #333333;
 }
 
 .footer{
-    padding: 40px;
-    margin-left: -30px;
+    margin-left: 250px;
     color: #fff;
 }
 
@@ -77,13 +75,16 @@ text-decoration: underline;
   line-height: 1.6;
   letter-spacing: normal;
   color: #ffffff;
-  
+
+}
+
+.footer-middle-02{
+  margin-left: -80px;
 }
 
 .02{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   font-family: Roboto;
   font-size: 15px;
   font-weight: normal;
@@ -92,21 +93,23 @@ text-decoration: underline;
   line-height: 1.6;
   letter-spacing: normal;
   color: #ffffff;
+  margin-left: -180px;
 }
 
 .container-adres{
-  width: 288px;
+  width: 400px;
   height: 300px;
   display: flex;
   flex-direction: column;
   display: inline-block;
   box-sizing: border-box;
+  margin-left: 0px;
 }
 
 .03{
+  width: 288px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   font-family: Roboto;
   font-size: 15px;
   font-weight: normal;
@@ -115,7 +118,7 @@ text-decoration: underline;
   line-height: 1.6;
   letter-spacing: normal;
   color: #ffffff;
-  margin:-10px;
+  margin-left:0px;
 }
 
 .copy{
