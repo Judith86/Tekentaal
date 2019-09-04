@@ -41,6 +41,7 @@ $mobile-portrait: 481px;
   @media screen and (max-width: #{$mobile-portrait}) {
     @content;
   }
+
 }
 
 @mixin position($position, $top: null, $right: null, $bottom: null, $left: null, $width: null, $height: null) {
