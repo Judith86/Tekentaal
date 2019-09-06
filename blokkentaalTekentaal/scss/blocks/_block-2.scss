@@ -30,7 +30,9 @@
 }
 
 
-
+.block--bg-primarygo{
+  margin-top: -195px;
+}
 
 .gofast{
   grid-column: center-start / center-end;
@@ -47,7 +49,7 @@
   padding: 2rem;
 }
 
-.gofastgogo{
+.gofastgo{
   display: grid;
   grid-template-columns: min-content 1fr;
   grid-row-gap: 0.5rem;
