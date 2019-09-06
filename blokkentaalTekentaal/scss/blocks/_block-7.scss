@@ -27,17 +27,22 @@
        transform: rotate(0deg);
     }
 }
+
+
+
 .grid-footer {
+    position: relative;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    border-radius:0px 30px 0px 30px;
+    grid-gap: 40px;
+    border-radius:30px 0px 0px 0px;
     background-color: #333333;
+    padding: 5px;
 }
 
 
 .footer{
-  width: 100%;
   font-family: Roboto;
   font-size: 15px;
   font-weight: normal;
@@ -160,7 +165,7 @@
   padding: 10px;
   background-color: #333333;
   border-top: #fff, solid, 1px;
-  border-radius:0px 0px 0px 30px;
+  border-radius:0px 0px 0px 0px;
   background-color: #333333;
 }
 
