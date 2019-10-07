@@ -34,6 +34,7 @@ $mobile-portrait: 481px;
 @mixin mobile-landscape {
   @media screen and (max-width: #{$mobile-landscape}) {
     @content;
+
   }
 }
 
@@ -41,6 +42,7 @@ $mobile-portrait: 481px;
   @media screen and (max-width: #{$mobile-portrait}) {
     @content;
   }
+
 
 }
 
